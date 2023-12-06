@@ -11,7 +11,7 @@ chicago_data['day_of_week'] = chicago_data['Start Time'].dt.weekday
 ny_data['day_of_week'] = ny_data['Start Time'].dt.weekday
 washington_data['day_of_week'] = washington_data['Start Time'].dt.weekday
 
-# Stocker dans un dictionnaire
+# Stocker dans un dictionnaires
 villes = {
   'New York': ny_data,
   'Chicago': chicago_data, 
